@@ -1,0 +1,8 @@
+{
+  "name": "Noor Coffee",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install --global pnpm@11.25.0 && pnpm install --frozen-lockfile",
+  "forwardPorts": [
+    5173
+  ]
+}
